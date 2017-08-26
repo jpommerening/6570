@@ -49,3 +49,6 @@ testSuite('Spec Examples by Section', require('./spec/spec-examples-by-section.j
 testSuite('Extended Tests', Object.assign({},
   require('./spec/extended-tests.json'),
   require('./spec/negative-tests.json')));
+testSuite('Geraint\'s tests', Object.assign({},
+  require('./geraint/test/custom-tests.json'),
+  require('./geraint/test/custom-tests-2.json')));

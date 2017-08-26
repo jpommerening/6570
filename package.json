@@ -4,6 +4,9 @@
   "main": "index.js",
   "author": "Jonas Pommerening <jonas.pommerening@gmail.com>",
   "license": "MIT",
+  "scripts": {
+    "test": "mocha"
+  },
   "devDependencies": {
     "chai": "^4.1.1",
     "mocha": "^3.5.0"
