@@ -1,5 +1,5 @@
-const t = require('..');
-const expect = require( 'chai' ).expect;
+const t = require('../src/');
+const expect = require('chai').expect;
 
 const skipTests = [
   [ '{keys:1}' ],
